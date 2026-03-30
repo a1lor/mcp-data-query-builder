@@ -1,0 +1,22 @@
+__pycache__/
+.venv/
+venv/
+env/
+.env
+
+# Large datasets that exceed GitHub limits or clutter the repo
+*.csv
+!test_data.csv
+
+# Ignore large presentations or PDFs
+*.pptx
+*.pdf
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
